@@ -1,0 +1,26 @@
+# Ignore environment variable files
+.env
+.env.local
+.env.*
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+# vscode
+.vscode/
+settings.json
+launch.json
+
+# Ignore config files containing tokens
+config.json
+secrets.json
+*.key
+*.token
+
+# Ignore any file containing API keys
+api_keys.txt
+
+data/
+recordings/
+vector_db/
